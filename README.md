@@ -1,1 +1,1 @@
-﻿# Mvc-Proje-Kampi
+# Mvc-Proje-Kampi
