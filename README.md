@@ -1,2 +1,1 @@
-# Mvc-Proje-Kampi
-Trainer Murat YÜCEDAĞ
+﻿# Mvc-Proje-Kampi
