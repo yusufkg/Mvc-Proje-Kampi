@@ -14,7 +14,7 @@ using BusinessLayer.ValidationRules.FluentValidation;
 
 namespace MVCProjeKampi.Controllers
 {
-  
+  [AllowAnonymous]
     public class WriterPanelController : Controller
     {
         HeadingManager headingManager = new HeadingManager(new EfHeadingDal());

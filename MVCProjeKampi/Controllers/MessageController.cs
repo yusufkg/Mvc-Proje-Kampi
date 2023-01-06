@@ -10,7 +10,7 @@ using System.Web.Mvc;
 
 
 namespace MVCProjeKampi.Controllers
-{
+{[AllowAnonymous]
     public class MessageController : Controller
     {
         MessageManager messageManager = new MessageManager(new EfMessageDal());
