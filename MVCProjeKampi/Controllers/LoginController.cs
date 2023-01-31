@@ -61,7 +61,6 @@ namespace MVCProjeKampi.Controllers
             {
                 return RedirectToAction("WriterLogin");
             }
-            return View();
         }
         [HttpPost]
         public JsonResult AjaxMethod(string response)

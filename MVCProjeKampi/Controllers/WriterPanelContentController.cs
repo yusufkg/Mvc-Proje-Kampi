@@ -18,8 +18,6 @@ namespace MVCProjeKampi.Controllers
         public ActionResult MyContent(string p)
         {
 
-
-
             p = (string)Session["WriterMail"];
             var writerId = context.Writers.Where(x => x.WriterMail == p).Select(x => x.WriterID).FirstOrDefault();
             var contentValues = contentManager.GetListByWriter(writerId);

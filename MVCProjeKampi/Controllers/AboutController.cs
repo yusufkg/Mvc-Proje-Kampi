@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace MVCProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class AboutController : Controller
     {
         AboutManager aboutManager = new AboutManager(new EfAboutDal());

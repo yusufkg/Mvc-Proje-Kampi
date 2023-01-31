@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace MVCProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class GalleryController : Controller
     {
         ImageFileManager imageFileManager = new ImageFileManager(new EfImageFileDal());

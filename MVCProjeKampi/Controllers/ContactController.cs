@@ -11,6 +11,7 @@ using System.Web.Mvc;
 
 namespace MVCProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class ContactController : Controller
     {
         ContactManager contactManager = new ContactManager(new EfContactDal());
