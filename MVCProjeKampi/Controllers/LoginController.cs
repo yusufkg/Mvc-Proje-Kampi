@@ -74,7 +74,7 @@ namespace MVCProjeKampi.Controllers
         {
             FormsAuthentication.SignOut();
             Session.Abandon();
-            return RedirectToAction("Headings", "Home");
+            return RedirectToAction("HomePage", "Home");
         }
     }
 }
